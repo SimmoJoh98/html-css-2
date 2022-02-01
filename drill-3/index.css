@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+#item1{
+    background-color: lightblue;
+    height: 6vh;
+    width: 3vw;
+    margin: 20px
+}
+.textContainer{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+#textfield{
+    font-weight: medium;
+}
+
+.div1{
+    background-color: rgb(105, 160, 194);
+    height: 33vh;
+}
+.div2{
+    background-color: teal;
+    height: 33vh;
+}
+.div3{
+    background-color: greenyellow;
+    height: 33vh;
+}
+.div4{
+    background-color: yellow;
+    height: 33vh;
+}
+.stickyCircle{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    right: .5vw;
+    bottom: 1vh;
+}
+#question{
+    color: white;
+    align-self: center;
+    margin-top: 26%;
+    font-size: 48pt;
+}
